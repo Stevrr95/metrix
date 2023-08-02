@@ -21,8 +21,8 @@ const Orders = (props) => {
                                     </div>
                                 </div>
                                 <div className='column'>
-                                    <p className='date'>{data.date}</p>
-                                    <p className='status' style={{ borderRadius: 8,width:70, padding: '2px 15px',fontSize:10, backgroundColor: data.statusBg,color:data.statusColor}}><center>{data.status}</center></p>
+                                    <p className='date' style={{fontSize:10}}>{data.date}</p>
+                                    <p className='status' style={{ borderRadius: 8,width:70, padding: '2px 15px', backgroundColor: data.statusBg,color:data.statusColor}}><center>{data.status}</center></p>
                                 </div>
                             </div>
                             <hr style={{border:'1px solid #F1F3F9'}}/>
