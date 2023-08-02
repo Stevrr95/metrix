@@ -57,7 +57,7 @@ function App() {
             </Card>
           </div>
           
-          <Card className="center" mr={0} middle={orders[0].middle} key={orders[0].id} icon={orders[0].icon} iconColor={orders[0].iconColor} left={orders[0].left} right={orders[0].right}>
+          <Card className="center orderCard" mr={0} middle={orders[0].middle} key={orders[0].id} icon={orders[0].icon} iconColor={orders[0].iconColor} left={orders[0].left} right={orders[0].right}>
           </Card>
           
         </div>
