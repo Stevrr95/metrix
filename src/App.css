@@ -535,9 +535,13 @@ div.content {
     margin-left: 0 !important;
   }
 
+  .mobile-nav .logo p {
+    font-size: 20px !important;
+  }
 
-
-  
+  .mobile-nav p {
+    font-size: 12px !important;
+  }
     
     .content .topRow,
     .content .bottomRow,
@@ -581,13 +585,12 @@ div.content {
 
     .orders {
       padding: 30px !important;
-      width:100%;
-    }
-    
-    .ordersCard {
-      width:100% !important;
+      width:90% !important;
     }
 
+    .ordersCard {
+      margin-bottom: 0 !important;
+    }
 
     .sidebar p {
       font-size: 10px !important;
